@@ -5,16 +5,6 @@ date:   2020-10-17 00:00:00
 categories: tournify
 ---
 
-# Tournify
-
-Created By: Miguel Gonzalez
-Last Edited: Oct 17, 2020 4:24 PM
-Topic: Blog
-
-# Disclaimer
-
-Tournify is still under heavy development and is currently in a beta phase. I'd be very happy if you give a try and provide feedback about what you like, don't like, features you'd like to see and bugs that you find. But keep in mind that the API may and will change in the future. I plan on eventually release a stable version but it is currently too early to do so.
-
 # What is Tournify?
 
 Tournify is a service aimed at helping people to follow tournament results. The goal is two-fold:
@@ -72,6 +62,11 @@ If you have suggestions of tournament hosts that you would like to see being sup
 Here's a list of clients that integrate with Tournify:
 
 - [tournify-discord-bot](https://github.com/Migwel/tournify_discord_bot): A discord bot that will post update in your Discord from the tournament you want to follow. Created by me :)
+
+# Disclaimer
+
+Tournify is still under heavy development and is currently in a beta phase. I'd be very happy if you give a try and provide feedback about what you like, don't like, features you'd like to see and bugs that you find. But keep in mind that the API may and will change in the future. I plan on eventually release a stable version but it is currently too early to do so.
+
 
 # Getting in touch
 
