@@ -6,12 +6,6 @@ categories: tournify
 tag: "tournify discord bot"
 ---
 
-# Tournify Discord Bot
-
-Created By: Miguel Gonzalez
-Last Edited: Oct 17, 2020 4:42 PM
-Topic: Blog
-
 # What is Tournify?
 
 In short, Tournify is a service aimed at unifying API from different tournament providers and keep users updated about games played as soon as they're over.
