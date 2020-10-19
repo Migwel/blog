@@ -42,3 +42,6 @@ To invite the bot to your group, follow [this link](https://discordapp.com/oauth
 # Getting in touch
 
 If you have questions or suggestions, feel free to join the discord channel using [this link](https://discord.gg/D6GvMuR)
+
+#Source code
+If you are interested in how it's build and want to contribute, you can check the code on [Github](https://github.com/Migwel/tournify_discord_bot) 
