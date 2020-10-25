@@ -1,10 +1,17 @@
+---
+layout: post
+title: "A Hamiltonian Secret Santa"
+date: 2020-10-25 00:00:00
+tags: programming
+---
+
 # Introduction
 
 2 years ago, when celebrating Christmas with 10 friends, we decided to give gift to each others and organize a Secret Santa. For those how do not know what Secret Santa is, the concept is quite simple: before Christmas, everybody is attributed someone else to whom they'll gift a present. On Christmas Day, you pick someone to start who gifts their present then the receiver gifts their present to the right person and so on.
 
 So, we decided to organize a Secret Santa but at our Christmas party, something went wrong: their was an inner loop in the distribution! I started and gave my present to person A. Person A gave their present to person B and person B gave their present to me. That meant that we had to pick someone else to start again and finish the gifting for the remaining 7 people.
 
-![Example of bad Secret Santa](assets/posts/secretsanta/badGraph.jpg)
+![Example of bad Secret Santa](/assets/posts/secretsanta/badGraph.jpg)
 
 Last year, I decided that I would not allow this to happen again. Let's see how we can write an application that picks secret Santas with the help of our best friend: maths.
 
@@ -16,7 +23,7 @@ A fascinating field of mathematics is graph theory. It lets you represent and so
 
 A graph is a structure, directed or not, that consists of vertices (also called nodes) and edges. A typical example is to use a graph to represent possible trips between geographical locations. In that case, the vertices are cities and the edges represent whether it's possible to travel directly from city A to city B. This is illustrated in the picture below.
 
-![Cities represented as a graph](assets/posts/secretsanta/cityGraph.jpg)
+![Cities represented as a graph](/assets/posts/secretsanta/cityGraph.jpg)
 
 In this example, it's possible to go directly from Paris to Madrid but not from Paris to Berlin. To do so, you first need to go through Brussels. It is also possible to give a weight to the edges. In the example, it could represent the distance between cities. With that, we could try to find the shortest path from one city to another.
 
@@ -44,7 +51,7 @@ Before implementing our algorithm, let's see how we are going to represent our d
 
 This is illustrated in the array below, where a white cell represent the `POSSIBLE` state and a red cell the `IMPOSSIBLE` state.
 
-![Table representation of the graph](assets/posts/secretsanta/secretSantaTable.jpg)
+![Table representation of the graph](/assets/posts/secretsanta/secretSantaTable.jpg)
 
 The diagonal only contains impossible cells since nobody can be their own secret Santas. I've also added a constraint that two people in a relationship cannot be each other's Secret Santas so that we have more constraints (and I found it more fun). We could easily imagine adding more constraints. For example, if Donald was Pluto's Secret Santa last year, we could forbid it to happen again this year.
 
@@ -60,7 +67,7 @@ Here is our approach:
 - If it's the last node we needed to visit, we are done
 - Else, repeat step 2 using the new node
 
-![Example of good Secret Santa](assets/posts/secretsanta/goodGraph.jpg)
+![Example of good Secret Santa](/assets/posts/secretsanta/goodGraph.jpg)
 
 
 ## Java implementation
