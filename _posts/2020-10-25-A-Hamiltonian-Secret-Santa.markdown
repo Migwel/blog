@@ -3,6 +3,7 @@ layout: post
 title: "A Hamiltonian Secret Santa"
 date: 2020-10-25 00:00:00
 tags: programming
+excerpt: "Here's to you Mr Hamilton"
 ---
 
 # Introduction

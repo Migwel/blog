@@ -4,6 +4,7 @@ title:  "Tournify Discord Bot"
 date:   2020-10-17 00:00:00
 categories: tournify
 tag: "tournify discord bot"
+excerpt: "A Bot friend to Tournify"
 ---
 
 # What is Tournify?
