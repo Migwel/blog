@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deserialize an inconsistent API with Jackson"
-date: 2020-10-25 00:00:00
+date: 2020-11-29 00:00:00
 tags: programming
 excerpt: "You can't predict the weather"
 ---
